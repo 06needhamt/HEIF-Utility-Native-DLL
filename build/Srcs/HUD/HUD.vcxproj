@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AE07C70A-A41A-3FA7-BAA5-6BDAD189133D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>HUD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HUD.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HUD</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HUD.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HUD</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HUD.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HUD</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HUD.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HUD</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\tomne\Downloads\opencv\sources\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\tomne\Downloads\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\tomne\Downloads\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\tomne\Downloads\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tomne\Downloads\opencv\build\include;D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>CMAKE_INTDIR="Debug";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CMAKE_INTDIR=\"Debug\";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opencv_world330.lib;..\jsonlib\Debug\json.lib;..\writer\Debug\heifwriter.lib;..\common\Debug\common.lib;..\parser\h265parser\Debug\h265parser.lib;..\parser\avcparser\Debug\avcparser.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/Debug/HUD.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/Debug/HUD.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>CMAKE_INTDIR="Release";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CMAKE_INTDIR=\"Release\";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opencv_world330.lib;..\jsonlib\Release\json.lib;..\writer\Release\heifwriter.lib;..\common\Release\common.lib;..\parser\h265parser\Release\h265parser.lib;..\parser\avcparser\Release\avcparser.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/Release/HUD.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/Release/HUD.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>CMAKE_INTDIR="MinSizeRel";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CMAKE_INTDIR=\"MinSizeRel\";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\jsonlib\MinSizeRel\json.lib;..\writer\MinSizeRel\heifwriter.lib;..\common\MinSizeRel\common.lib;..\parser\h265parser\MinSizeRel\h265parser.lib;..\parser\avcparser\MinSizeRel\avcparser.lib;..\common\MinSizeRel\common.lib;..\parser\h265parser\MinSizeRel\h265parser.lib;..\parser\avcparser\MinSizeRel\avcparser.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/MinSizeRel/HUD.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/MinSizeRel/HUD.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>CMAKE_INTDIR="RelWithDebInfo";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CMAKE_INTDIR=\"RelWithDebInfo\";HUD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Github\HEIF-Utility-Native-DLL\Srcs\common;D:\Github\HEIF-Utility-Native-DLL\Srcs\jsonlib;D:\Github\HEIF-Utility-Native-DLL\Srcs\parser;D:\Github\HEIF-Utility-Native-DLL\Srcs\reader;D:\Github\HEIF-Utility-Native-DLL\Srcs\writer;D:\Github\HEIF-Utility-Native-DLL\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\jsonlib\RelWithDebInfo\json.lib;..\writer\RelWithDebInfo\heifwriter.lib;..\common\RelWithDebInfo\common.lib;..\parser\h265parser\RelWithDebInfo\h265parser.lib;..\parser\avcparser\RelWithDebInfo\avcparser.lib;..\common\RelWithDebInfo\common.lib;..\parser\h265parser\RelWithDebInfo\h265parser.lib;..\parser\avcparser\RelWithDebInfo\avcparser.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/RelWithDebInfo/HUD.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/RelWithDebInfo/HUD.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/HEIF-Utility-Native-DLL -BD:/Github/HEIF-Utility-Native-DLL/build --check-stamp-file D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/HEIF-Utility-Native-DLL -BD:/Github/HEIF-Utility-Native-DLL/build --check-stamp-file D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/HEIF-Utility-Native-DLL -BD:/Github/HEIF-Utility-Native-DLL/build --check-stamp-file D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/HEIF-Utility-Native-DLL -BD:/Github/HEIF-Utility-Native-DLL/build --check-stamp-file D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Github/HEIF-Utility-Native-DLL/Srcs/HUD/CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Github\HEIF-Utility-Native-DLL\build\Srcs\HUD\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Github\HEIF-Utility-Native-DLL\Srcs\HUD\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Github\HEIF-Utility-Native-DLL\build\ZERO_CHECK.vcxproj">
+      <Project>{D6F81303-AAF9-309B-BDD4-8CB331B294BB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Github\HEIF-Utility-Native-DLL\build\Srcs\common\common.vcxproj">
+      <Project>{ADEAE464-7910-3BFB-80D2-BC66C57D0ABE}</Project>
+      <Name>common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Github\HEIF-Utility-Native-DLL\build\Srcs\writer\heifwriter.vcxproj">
+      <Project>{1E0CDADE-816C-3112-B55C-EF4162012EE7}</Project>
+      <Name>heifwriter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Github\HEIF-Utility-Native-DLL\build\Srcs\jsonlib\json.vcxproj">
+      <Project>{66609A02-9512-304C-AC66-CAEE1FEF1AC7}</Project>
+      <Name>json</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

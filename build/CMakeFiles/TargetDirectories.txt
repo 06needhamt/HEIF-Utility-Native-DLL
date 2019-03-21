@@ -1,0 +1,9 @@
+D:/Github/HEIF-Utility-Native-DLL/build/CMakeFiles/ALL_BUILD.dir
+D:/Github/HEIF-Utility-Native-DLL/build/CMakeFiles/ZERO_CHECK.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/common/CMakeFiles/common.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/jsonlib/CMakeFiles/json.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/parser/avcparser/CMakeFiles/avcparser.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/parser/h265parser/CMakeFiles/h265parser.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/reader/CMakeFiles/heifreader.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/writer/CMakeFiles/heifwriter.dir
+D:/Github/HEIF-Utility-Native-DLL/build/Srcs/HUD/CMakeFiles/HUD.dir

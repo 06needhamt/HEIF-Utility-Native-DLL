@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\HEIF-Utility-Native-DLL\build\CMakeFiles\f4e2c828c049a9fdaa194fca45a698e2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{06F20376-5BA3-3D7B-AD9A-5E3593033B40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
